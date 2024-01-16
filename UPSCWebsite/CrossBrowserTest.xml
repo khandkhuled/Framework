@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.Utility.Listeners"></listener>
+	</listeners>
+  <test thread-count="5" name="Test_Chrome">
+	  <parameter name="BrowserName" value="Chrome"></parameter>
+    <classes>
+      <class name="com.Test.Test1_HomePageNavigation"/>
+      <class name="com.Test.Test2_Helpline"/>
+      <class name="com.Test.Test3_CardSection"/>
+      <class name="com.Test.Test4_AlertSection"/>
+      <class name="com.Test.Test5_Footer"/>
+      <class name="com.Test.Test6_Search"/>
+       <class name="com.Test.Test7_Examination"/>
+      <class name="com.Test.Test8_Recruitment"/>
+      <class name="com.Test.Test9_WhatsNew"/>
+      <class name="com.Test.Test10_Commission"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Test_Edge">
+	  <parameter name="BrowserName" value="Edge"></parameter>
+    <classes>
+       <class name="com.Test.Test1_HomePageNavigation"/>
+      <class name="com.Test.Test2_Helpline"/>
+      <class name="com.Test.Test3_CardSection"/>
+      <class name="com.Test.Test4_AlertSection"/>
+      <class name="com.Test.Test5_Footer"/>
+      <class name="com.Test.Test6_Search"/>
+       <class name="com.Test.Test7_Examination"/>
+      <class name="com.Test.Test8_Recruitment"/>
+      <class name="com.Test.Test9_WhatsNew"/>
+      <class name="com.Test.Test10_Commission"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test_Firefox">
+	  <parameter name="BrowserName" value="Firefox"></parameter>
+    <classes>
+      <class name="com.Test.Test1_HomePageNavigation"/>
+      <class name="com.Test.Test2_Helpline"/>
+      <class name="com.Test.Test3_CardSection"/>
+      <class name="com.Test.Test4_AlertSection"/>
+      <class name="com.Test.Test5_Footer"/>
+      <class name="com.Test.Test6_Search"/>
+       <class name="com.Test.Test7_Examination"/>
+      <class name="com.Test.Test8_Recruitment"/>
+      <class name="com.Test.Test9_WhatsNew"/>
+      <class name="com.Test.Test10_Commission"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
