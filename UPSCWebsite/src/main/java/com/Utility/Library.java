@@ -24,7 +24,7 @@ public class Library {
 		
 	}
 	//Element Click
-	public static void custom_click(WebElement element,String Fieldname) {
+	public static void custom_click(WebElement element) {
 		try {
 		element.click();
 		}catch(Exception e) {

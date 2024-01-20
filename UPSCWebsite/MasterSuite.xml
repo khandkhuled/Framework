@@ -8,7 +8,7 @@
 	  <parameter name="BrowserName" value="Chrome"></parameter>
 	  <classes>
 		  <class name="com.Test.Test1_HomePageNavigation"></class>
-		  <class name="com.Test.Test2_Helpline"></class>
+		  <class name="com.Test.Test11_ContactUs"></class>
 		  <class name="com.Test.Test3_CardSection"></class>
 	  </classes>
   </test> <!-- Test -->

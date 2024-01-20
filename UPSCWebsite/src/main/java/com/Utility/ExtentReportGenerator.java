@@ -14,7 +14,7 @@ public class ExtentReportGenerator {
 		ExtentSparkReporter reporter=new ExtentSparkReporter(path);
 		reporter.config().setDocumentTitle("Automation Test Report");
 		reporter.config().setReportName("UPSC Website Cross Browser Testing Report");
-//		reporter.config().setTheme(Theme.DARK);
+		reporter.config().setTheme(Theme.DARK);
 		
 		ExtentReports extent=new ExtentReports();
 		extent.attachReporter(reporter);

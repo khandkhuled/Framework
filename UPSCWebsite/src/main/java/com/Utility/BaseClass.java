@@ -40,7 +40,7 @@ public class BaseClass {
 		}
 		driver.get(config.getBaseUrl());
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));		
 		
 	}
 	@AfterMethod
